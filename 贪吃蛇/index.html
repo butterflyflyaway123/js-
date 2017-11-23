@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .map{
+            width: 800px;
+            height: 600px;
+            background-color: palegoldenrod;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div class="map"></div>
+<script src="js/food.js"></script>
+<script src="js/snake.js"></script>
+<script src="js/game.js"></script>
+<script>
+    //实例化游戏对象
+    var gm=new Game(document.querySelector(".map"));
+    gm.init();
+</script>
+</body>
+</html>
